@@ -1,0 +1,64 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Agdasima&family=Narnoor&display=swap');
+                
+.sobre-mim {
+  font-family: 'Narnoor', serif;
+  position: absolute;
+  top: 20px;
+  right: 50px;
+  left: 250px;
+}
+
+.meuNome {
+  text-align: center;
+  font-family: 'Narnoor', serif;
+}
+
+body {
+  background-color: #3d5a80ff;
+  padding: 20px;
+}
+
+em{
+  color: #bfdbf7ff;
+}
+
+.comunicativo {
+  font-size: 16px;
+}
+
+.liderança {
+  font-size: 20px;
+}
+
+.programas-eng {
+  font-size: 16px;
+}
+
+.ingles {
+  font-size: 20px;
+}
+
+.alemao {
+  font-size: 18px;
+}
+
+.git {
+  font-size: 20px;
+}
+
+#foto {
+  float: left;
+  padding: 10px;
+  background-color: white;
+  height: 300px;
+}
+
+.image-container {
+  height: 310px;
+  position: relative;
+}
+
+ul.habilidades li:nth-child(odd) {
+  color: rgba(255, 252, 252, 0.329);
+}

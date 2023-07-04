@@ -6,47 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta charset="UTF-8">
     <title>Bruno Marcadella</title>
-    <style>
-      
-      @import url('https://fonts.googleapis.com/css2?family=Agdasima&family=Narnoor&display=swap');
-                
-      .sobre-mim .meuNome {
-        font-family: 'Narnoor', serif;
-      }
-
-      body {
-        background-color: #3d5a80ff;
-      }
-
-      em{
-        color: #bfdbf7ff;
-      }
-
-      .comunicativo {
-        font-size: 16px;
-      }
-
-      .liderança {
-        font-size: 20px;
-      }
-
-      .programas-eng {
-        font-size: 16px;
-      }
-
-      .ingles {
-        font-size: 20px;
-      }
-
-      .alemao {
-        font-size: 18px;
-      }
-
-      .git {
-        font-size: 20px;
-      }
-
-    </style>
+    <link rel="stylesheet" href="style.css">
   </head>
   
   <body>
@@ -54,12 +14,17 @@
     <li><a href="#sobre-mim">Sobre mim</a></li> 
     <li><a href="#pagina">Página que eu gosto</a></li>
     </ul>
-    <h1 class="meuNome">Bruno Marcadella</h1>
-    <img id="foto" src="bruno.jpg" title="Bruno Marcadella" alt="Foto de perfil de Bruno Marcadella sorrindo de terno azul e camisa branca" width="300px">
-    <p class="sobre-mim">Seja bem-vindo ao meu portfólio web! Eu me chamo <strong>Bruno Marcadella</strong> e nasci em 09/03/1997 na cidade de Porto Alegre, RS. Sou formado em <em>Engenharia Civil</em> pela Universidade Federal do Rio Grande do Sul e estou estudando desenvolvimento full-stack na <em>Trybe</em>.</p>
-    <p class="resido"><strong>Porto Alegre - Rio Grande do Sul</strong></p>
+    <div>
+      <h1 class="meuNome">Bruno Marcadella</h1>
+      <div class="image-container">
+        <img id="foto" src="bruno.jpg" title="Bruno Marcadella" alt="Foto de perfil de Bruno Marcadella sorrindo de terno azul e camisa branca">
+        <p class="sobre-mim">Seja bem-vindo ao meu portfólio web! Eu me chamo <strong>Bruno Marcadella</strong> e nasci em 09/03/1997 na cidade de Porto Alegre, RS. Sou formado em <em>Engenharia Civil</em> pela Universidade Federal do Rio Grande do Sul e estou estudando desenvolvimento full-stack na <em>Trybe</em>.</p>
+      </div>
+    </div>
+        <p class="resido"><strong>Porto Alegre - Rio Grande do Sul</strong></p>
+      
     <h2>Habilidades:</h2>
-    <ul>
+    <ul class="habilidades">
       <li class="comunicativo">Comunicativo</li>
       <li class="liderança"><strong>Espírito de Liderança</strong></li>
       <li class="programas-eng">Conhecimento em Autocad e Revit</li>
