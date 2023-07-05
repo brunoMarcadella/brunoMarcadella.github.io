@@ -62,3 +62,15 @@ em{
 ul.habilidades li:nth-child(odd) {
   color: rgba(255, 252, 252, 0.329);
 }
+
+.portfolio {
+  font-family: 'Narnoor', serif;
+  text-align: center;
+  background-color: white;
+}
+
+nav {
+    background-color: white;
+    top: 0;
+    display: inline;
+}
