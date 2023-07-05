@@ -1,3 +1,7 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
 
 @import url('https://fonts.googleapis.com/css2?family=Agdasima&family=Narnoor&display=swap');
                 
@@ -16,7 +20,7 @@
 
 body {
   background-color: #3d5a80ff;
-  padding: 20px;
+  /* padding: 20px; */
 }
 
 em{
@@ -67,6 +71,8 @@ ul.habilidades li:nth-child(odd) {
   font-family: 'Narnoor', serif;
   text-align: center;
   background-color: white;
+  width: 100%;
+  margin: 0px;
 }
 
 nav {
